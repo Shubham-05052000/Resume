@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    background: blue;
+    /* border: 5px solid red; */
+    padding-bottom: 155px;
+}
+.card img{
+    height: 100px;
+    width: 100;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+.card h2{
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+.card p{
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    color: rgb(255, 252, 245);
+    font-size: 18px;
+}
+.navbar .github{
+    width: 35px;
+    color: black;
+    position: absolute;
+    left: 25px;
+}
+.navbar .img1{
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    top: -5px;
+    left: 165px;
+}
+.navbar .img2{
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    top: -5px;
+    left: 290px;
+}
+.navbar .img3{
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    top: -5px;
+    left: 557px;
+}
+.navbar .img4{
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    top: -5px;
+    left: 705px;
+}
+.navbar{
+    border: 1PX solid black;
+    padding:2px 580px 9px 0;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 135px;
+    left: 0px;
+    background-color:gray;
+    
+}
+li{
+    list-style: none;
+}
+.navbar ul{
+    
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 252, 245);
+}
+.navbar a{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(255, 252, 245);
+}
+.navbar ul li{
+    margin-left: 40px;
+}
+.pc{
+    display: flex;
+    position: absolute;
+    top: 225px;
+    justify-content: space-between;
+}
+.pc h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.career{
+    margin-left: 200px;
+}
+.career ul li{
+    list-style: disc;
+}
+.profile{
+    /* position: absolute;
+    left: 50px; */
+    margin-left: 100px;
+}
+.table{
+    /* border: 1px solid red; */
+    position: relative;
+    top: 250px;
+    left: 0px;
+}
+.table h1{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+table{
+    margin: auto;
+    position: relative;
+    left: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+tr{
+    padding: 15px;
+}
+th{
+    padding: 15px;
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    padding: 15px;
+}
+.project{
+    position: relative;
+    top:250px
+}
+.project h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.project li{
+    list-style: disc;
+}
+.detail{
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+   
+}
+.abilites{
+    position: relative;
+    top: 230px;
+}
+.abilites .detail1 h1{
+    text-align: center;
+
+}
+.detail1 li{
+    list-style: disc;
+}
+.abilites .detail1{
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+.skill{
+    position: relative;
+    top: 230px;
+}
+.skill h1{
+    text-align: center;
+}
+.skill .datail2{
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+.datail2 li{
+    list-style: disc;
+}
+
+
+
+
+
+
+/* //media query */
+@media(max-width: 768px){
+    .navbar .github{
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+    .navbar .img1{
+        position: absolute;
+        left: 125px;
+        top: 5px;
+    }
+    .navbar .img2{
+        position: absolute;
+        left: 228px;
+        top: 5px;
+    }
+    .navbar .img3{
+        position: absolute;
+        left: 501px;
+        top: 5px;
+    }
+    .navbar .img4{
+        position: absolute;
+        left: 645px;
+        top: 5px;
+    }
+    .navbar li{
+        margin-top: 05px;
+    }
+    .pc{
+        display: block;
+    }
+    .career{
+        padding: 7px 183px 261px 61px;
+        position: absolute;
+        left: 100px;
+        top:-20px;
+    }
+    .career ul{
+        padding: 7px 80px 33px 53px;
+        position: absolute;
+        left: 45px;
+    }
+    .profile{
+        padding: 7px 183px 261px 61px;
+        position: absolute;
+        left: -78px;
+    }
+    .profile p{
+        padding: 7px 80px 33px 53px;
+        margin-left: -100px;
+        position: absolute;
+    }
+    .table{
+        position: relative;
+        top: 300px;
+        left: -60px;
+    }
+    .table h1{
+        font-size: 30px;
+    }
+    tr{
+        padding: 07px;
+    }
+    th{
+        padding: 07px;
+        border: 1px solid black;
+    }
+    td{
+        border: 1px solid black;
+        padding: 07px;
+    }
+    .project{
+        position: relative;
+        top:300px
+    }
+    .detail{
+        width: 600px;
+        margin: auto;
+        padding: 20px;
+       
+    }
+    .abilites{
+        position: relative;
+        top: 275px;
+    }
+    .detail1 ul{
+        position: relative;
+       left: 57px;
+    }
+    .skill{
+        position: relative;
+        top: 250px;
+    }
+    .skill .datail2{
+        width: 580px;
+        margin: auto;
+        padding: 20px;
+    }
+}
